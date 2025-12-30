@@ -1,0 +1,9 @@
+Functional Requirements – AI-Powered Career Recommendation System
+
+FR01: Student Profile Data Input
+Description:
+The system shall allow MEC students to enter their academic details such as GPA, completed courses, skills, and career interests.
+
+FR02: Career Recommendation Generation
+Description:
+The system shall analyze the student’s input data and generate a ranked list of suitable career paths along with skill gap recommendations.
