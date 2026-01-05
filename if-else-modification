@@ -1,1 +1,27 @@
+START
+
+Input student_GPA
+Input student_skills
+Initialize career_list
+Initialize recommended_careers as empty list
+
+WHILE more careers to evaluate DO
+
+    Select next career from career_list
+
+    IF student_GPA >= career.required_GPA THEN
+        IF student_skills match career.required_skills THEN
+            Add career to recommended_careers
+        ELSE
+            Continue to next career
+        ENDIF
+    ELSE
+        Continue to next career
+    ENDIF
+
+END WHILE
+
+Display message (recommended careers generated / process completed)
+
+END
 
